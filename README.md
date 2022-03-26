@@ -101,6 +101,7 @@ You will need to update filebeat-config.yml and metricbeat-configuration.yml spe
 
 ## Line 1106 - update the hosts IP address to your ELK servers private IP
 hosts: ["10.2.0.4:9200"]
+<br>
 username: "elestic"
 password: "changeme" 
  Change this to the password you set
