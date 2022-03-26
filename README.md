@@ -102,11 +102,13 @@ You will need to update filebeat-config.yml and metricbeat-configuration.yml spe
 ## Line 1106 - update the hosts IP address to your ELK servers private IP
 hosts: ["10.2.0.4:9200"]
 username: "elestic"
-password: "changeme" #TODO: Change this to the password you set
+password: "changeme" 
+ Change this to the password you set
 
 ## Line 1806 - perform the same action as above
 setup.kibana:
-   host: "10.;2.0.4:5601" #TODO: Change this to the IP address of your ELK server
+   host: "10.;2.0.4:5601" 
+ Change this to the IP address of your ELK server
    
 You will also need to update the hosts file in the ansible container to show proper targets for deployment nd monitory for the ELK server
 
