@@ -103,7 +103,9 @@ You will need to update filebeat-config.yml and metricbeat-configuration.yml spe
 hosts: ["10.2.0.4:9200"]
 <br>
 username: "elestic"
-password: "changeme" 
+<br>
+password: "changeme"
+<br> 
  Change this to the password you set
 
 ## Line 1806 - perform the same action as above
