@@ -107,7 +107,7 @@ password: "changeme"
 
 ## Line 1806 - perform the same action as above
 setup.kibana:
-   host: "10.;2.0.4:5601" 
+   host: "10.2.0.4:5601" 
  Change this to the IP address of your ELK server
    
 You will also need to update the hosts file in the ansible container to show proper targets for deployment nd monitory for the ELK server
